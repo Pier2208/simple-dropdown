@@ -4,8 +4,7 @@ import {Dropdown, Trigger, MenuList, MenuItem} from "./components/Dropdown"
 
 function App() {
   return (
-   <main className="bg-sky-800">
-    <div className="flex min-h-screen items-center justify-center gap-x-48">
+   <main className="bg-sky-800 flex min-h-screen items-center justify-center gap-x-48">
     <Dropdown>
       <Trigger icon={CircleEllipsis} />
       <MenuList>
@@ -23,7 +22,6 @@ function App() {
         <MenuItem icon={LogOut} name="Logout" />
       </MenuList>
      </Dropdown>
-    </div>
    </main>
   )
 }
